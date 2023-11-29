@@ -1,5 +1,24 @@
-# Biomedical-image-segmentation
-U net human retinal blood vessels segmentation : RGB image + Ground truth + prediction 
-![06_test_0 (1)](https://github.com/naweendissanayake/Biomedical-image-segmentation/assets/75529470/3e04c74a-9afd-4544-91f5-1345addb3d5b)
-![19_test_0](https://github.com/naweendissanayake/Biomedical-image-segmentation/assets/75529470/263fc5c8-3f26-48ef-a9dc-e19c153d41a9)
-![06_test_0](https://github.com/naweendissanayake/Biomedical-image-segmentation/assets/75529470/af827498-2d53-42c2-b54a-d088a4bea61a)
+# Retina-Blood-Vessel-Segmentation-in-PyTorch
+
+This repository contains the code for semantic segmentation of the retina blood vessel on the DRIVE dataset using the PyTorch framework.
+
+The following models are used:
+- [UNET](https://arxiv.org/abs/1505.04597)
+
+Models to be used in future:
+- RESUNET
+- DEEPLABV3+
+- more...
+
+# Dataset
+The ISIC-2018 dataset is used for this for training the UNET architecture. The dataset contains the 2596 pairs of images and masks. All of these images are of different shapes and contains a variety of skin lesions.
+
+Original Image             |  Mask Image
+:-------------------------:|:-------------------------:
+![](img/image.png)  |  ![](img/mask.png)
+
+## Contact
+For any query contact below:
+- [Facebook](https://www.facebook.com/idiotdeveloper)
+- [Instagram](https://www.instagram.com/nikhilroxtomar/)
+- [Telegram](https://t.me/idiotdeveloper)
